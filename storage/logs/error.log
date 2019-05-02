@@ -1,0 +1,60 @@
+2019-05-02 12:57:44 - PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'opencart_lite_db' in C:\xampp\htdocs\Opencart-Divine\system\library\db\mysqli.php on line 7
+2019-05-02 12:57:44 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\xampp\htdocs\Opencart-Divine\system\library\db\mysqli.php on line 10
+2019-05-02 12:57:44 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\xampp\htdocs\Opencart-Divine\system\library\db\mysqli.php on line 10
+2019-05-02 13:11:53 - PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'opencart_lite_db' in C:\xampp\htdocs\Opencart-Divine\system\library\db\mysqli.php on line 7
+2019-05-02 13:11:53 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\xampp\htdocs\Opencart-Divine\system\library\db\mysqli.php on line 10
+2019-05-02 13:11:53 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\xampp\htdocs\Opencart-Divine\system\library\db\mysqli.php on line 10
+2019-05-02 14:28:47 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\Opencart-Divine\system\engine\loader.php on line 83
+2019-05-02 14:53:27 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 336
+2019-05-02 15:03:33 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 336
+2019-05-02 15:05:21 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 336
+2019-05-02 15:12:40 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 336
+2019-05-02 15:14:06 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 336
+2019-05-02 15:14:50 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 336
+2019-05-02 15:15:45 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 336
+2019-05-02 15:27:49 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 336
+2019-05-02 15:28:04 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 336
+2019-05-02 15:32:12 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 336
+2019-05-02 15:43:56 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 330
+2019-05-02 15:51:36 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 330
+2019-05-02 15:54:51 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 330
+2019-05-02 15:55:24 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 330
+2019-05-02 15:55:31 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 330
+2019-05-02 16:12:13 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 330
+2019-05-02 16:12:22 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 330
+2019-05-02 16:15:46 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 333
+2019-05-02 16:16:49 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 333
+2019-05-02 16:17:34 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 333
+2019-05-02 16:19:30 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 333
+2019-05-02 16:19:40 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 333
+2019-05-02 16:19:50 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 333
+2019-05-02 16:19:59 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 333
+2019-05-02 16:20:09 - PHP Notice:  Undefined index: username in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 431
+2019-05-02 16:20:12 - PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 333
+2019-05-02 16:28:36 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 305
+2019-05-02 16:29:05 - PHP Notice:  Undefined index: username in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 336
+2019-05-02 16:29:13 - PHP Notice:  Undefined index: username in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 336
+2019-05-02 16:49:33 - PHP Notice:  Undefined index: tensanpham in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 310
+2019-05-02 16:49:33 - PHP Notice:  Undefined index: mota in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 316
+2019-05-02 16:49:55 - PHP Notice:  Undefined index: tensanpham in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 310
+2019-05-02 16:49:55 - PHP Notice:  Undefined index: mota in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 316
+2019-05-02 17:18:24 - PHP Notice:  Undefined index: tensanpham in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 311
+2019-05-02 17:18:24 - PHP Notice:  Undefined index: mota in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 319
+2019-05-02 17:19:11 - PHP Notice:  Undefined index: tensanpham in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 311
+2019-05-02 17:19:11 - PHP Notice:  Undefined index: mota in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 319
+2019-05-02 17:21:48 - PHP Notice:  Undefined index: tensanpham in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 311
+2019-05-02 17:21:48 - PHP Notice:  Undefined index: mota in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 319
+2019-05-02 17:21:57 - PHP Notice:  Undefined index: tensanpham in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 311
+2019-05-02 17:21:57 - PHP Notice:  Undefined index: mota in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 319
+2019-05-02 17:22:02 - PHP Notice:  Undefined index: tensanpham in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 311
+2019-05-02 17:22:02 - PHP Notice:  Undefined index: mota in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 319
+2019-05-02 17:22:09 - PHP Notice:  Undefined index: tensanpham in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 311
+2019-05-02 17:22:09 - PHP Notice:  Undefined index: mota in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 319
+2019-05-02 17:25:31 - PHP Notice:  Undefined index: tensanpham in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 311
+2019-05-02 17:25:31 - PHP Notice:  Undefined index: mota in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 319
+2019-05-02 17:27:20 - PHP Notice:  Undefined index: tensanpham in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 311
+2019-05-02 17:27:20 - PHP Notice:  Undefined index: mota in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 319
+2019-05-02 17:28:19 - PHP Notice:  Undefined index: tensanpham in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 311
+2019-05-02 17:28:19 - PHP Notice:  Undefined index: mota in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 319
+2019-05-02 17:30:26 - PHP Notice:  Undefined index: tensanpham in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 311
+2019-05-02 17:30:26 - PHP Notice:  Undefined index: mota in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 319
