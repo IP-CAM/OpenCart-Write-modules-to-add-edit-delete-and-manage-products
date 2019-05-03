@@ -176,6 +176,7 @@ class ControllerSanPhamSanPham extends Controller {
 				'id'		=> $result['id'],
 				'ten_sp'    => $result['ten_sp'],
 				'mota_sp'   => $result['mota_sp'],
+				'price'		=> number_format($result['price']).' ₫',
 				'time' => date('H:i - d/m/Y', $result['time']),
 				'edit'       => $this->url->link('sanpham/sanpham/edit', '' . '&id=' . $result['id'] . $url, true)
 			);
@@ -215,6 +216,7 @@ class ControllerSanPhamSanPham extends Controller {
 
 		$data['sort_ten_sp'] = $this->url->link('sanpham/sanpham', '' . '&sort=ten_sp' . $url, true);
 		$data['sort_mota_sp'] = $this->url->link('sanpham/sanpham', '' . '&sort=mota_sp' . $url, true);
+		$data['sort_price'] = $this->url->link('sanpham/sanpham', '' . '&sort=price' . $url, true);
 		$data['sort_time'] = $this->url->link('sanpham/sanpham', '' . '&sort=time' . $url, true);
 
 		$url = '';
@@ -267,6 +269,13 @@ class ControllerSanPhamSanPham extends Controller {
 		} else {
 			$data['error_mota'] = '';
 		}
+
+		if (isset($this->error['price'])) {
+			$data['error_price'] = $this->error['price'];
+		} else {
+			$data['error_price'] = '';
+		}
+
 		$url = '';
 
 		if (isset($this->request->get['sort'])) {
@@ -321,6 +330,15 @@ class ControllerSanPhamSanPham extends Controller {
 			@$data['mota'] = $this->request->post['mota'];
 		}
 
+		if (isset($this->request->post['price'])) {
+			$data['price'] = intval($this->request->post['price']);
+		} else if(isset($user_info['price'])) {
+			$data['price'] = $user_info['price'];
+		} else {
+			@$data['price'] = $this->request->post['price'];
+		}
+
+
 
 		$data['header'] = $this->load->controller('common/header');
 		$data['column_left'] = $this->load->controller('common/column_left');
@@ -342,6 +360,11 @@ class ControllerSanPhamSanPham extends Controller {
 		//Kiểm tra nếu tên sản phẩm trống hoặc dưới 6 kí tự
 		if ((utf8_strlen($this->request->post['mota']) < 15) || empty($this->request->post['mota'])) {
 			$this->error['mota'] = $this->language->get('error_mota');
+		}
+
+		//Kiểm tra nếu giá tiền trống hoặc bé hơn 0
+		if (intval($this->request->post['price']) <= 0) {
+			$this->error['price'] = $this->language->get('error_price');
 		}
 
 		return !$this->error;

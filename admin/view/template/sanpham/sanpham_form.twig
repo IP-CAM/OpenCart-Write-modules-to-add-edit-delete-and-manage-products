@@ -35,6 +35,15 @@
             </div>
           </div>
           <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-ten">Giá Tiền</label>
+            <div class="col-sm-10">
+              <input type="number" name="price" value="{{ price }}" placeholder="Nhập giá tiền..." id="input-ten" class="form-control" />
+              {% if error_price %}
+              <div class="text-danger">{{ error_price }}</div>
+              {% endif %}
+            </div>
+          </div>
+          <div class="form-group required">
             <label class="col-sm-2 control-label" for="input-mota">Mô Tả</label>
             <div class="col-sm-10">
               <textarea name="mota" class="form-control" id="input-mota" rows="7" placeholder="Nhập mô tả sản phẩm...">{{ mota }}</textarea>

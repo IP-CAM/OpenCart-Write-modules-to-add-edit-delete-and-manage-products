@@ -120,6 +120,7 @@ class ModelSanPhamSanPham extends Model {
 		$sort_data = array(
 			'ten_sp',
 			'mota_sp',
+			'price',
 			'time'
 		);
 
@@ -154,7 +155,7 @@ class ModelSanPhamSanPham extends Model {
 
 	//Thêm sản phẩm vào Data
 	public function addSanPham($data) {
-		$this->db->query("INSERT INTO `" . DB_PREFIX . "sanpham` SET ten_sp = '" . $this->db->escape($data['tensanpham']) . "', mota_sp = '" . $this->db->escape($data['mota']) . "',time = ".(time()+7*3600));
+		$this->db->query("INSERT INTO `" . DB_PREFIX . "sanpham` SET ten_sp = '" . $this->db->escape($data['tensanpham']) . "',price = '" . intval($data['price']) . "', mota_sp = '" . $this->db->escape($data['mota']) . "',time = ".(time()+7*3600));
 	
 		return $this->db->getLastId();
 	}
@@ -166,7 +167,7 @@ class ModelSanPhamSanPham extends Model {
 
 	//Sửa sản phẩm
 	public function editSanPham($id, $data) {
-		$this->db->query("UPDATE `" . DB_PREFIX . "sanpham` SET ten_sp = '" . $this->db->escape($data['tensanpham']) . "', mota_sp = '" . $this->db->escape($data['mota']) . "', time = '" . (time()+7*3600) . "' WHERE id = '" . (int)$id . "'");
+		$this->db->query("UPDATE `" . DB_PREFIX . "sanpham` SET ten_sp = '" . $this->db->escape($data['tensanpham']) . "',price = '" . intval($data['price']) . "', mota_sp = '" . $this->db->escape($data['mota']) . "', time = '" . (time()+7*3600) . "' WHERE id = '" . (int)$id . "'");
 	}
 
 	//Get Sản Phẩm

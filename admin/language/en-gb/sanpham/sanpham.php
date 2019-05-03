@@ -15,15 +15,17 @@ $_['column_username']       = 'Tên Sản Phẩm';
 $_['column_status']         = 'Thông Tin';
 $_['column_date_added']     = 'Ngày Tạo';
 $_['column_action']         = 'Hành Động';
+$_['column_price']          = 'Giá Tiền';
 
 //Form
 //$_['tensanpham'] = 'Tên Sản Phẩm';
-$_['mota_sanpham'] = 'Mô Tả';
-$_['entry_tensanpham'] = 'Nhập Tên Sản Phẩm';
-$_['entry_mota_sanpham'] = 'Nhập Mô Tả Sản Phẩm';
+$_['mota_sanpham']          = 'Mô Tả';
+$_['entry_tensanpham']      = 'Nhập Tên Sản Phẩm';
+$_['entry_mota_sanpham']    = 'Nhập Mô Tả Sản Phẩm';
 
-$_['error_tensanpham'] = 'Không được để trống tên sản phẩm. Tên sản phẩm phải trên 6 kí tự.';
-$_['error_mota'] = 'Không được để trống mô tả sản phẩm. Mô tả phải trên 15 kí tự.';
+$_['error_tensanpham']      = 'Không được để trống tên sản phẩm. Tên sản phẩm phải trên 6 kí tự.';
+$_['error_mota']            = 'Không được để trống mô tả sản phẩm. Mô tả phải trên 15 kí tự.';
+$_['error_price']           = 'Lỗi giá tiền. Bạn không được để trống ô giá tiền hoặc giá trị bé hơn 0.';
 // Entry
 $_['entry_username']        = 'Username';
 $_['entry_user_group']      = 'User Group';

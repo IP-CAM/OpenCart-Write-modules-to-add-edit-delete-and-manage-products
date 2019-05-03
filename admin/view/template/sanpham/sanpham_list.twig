@@ -45,6 +45,11 @@
                     {% else %}
                     <a href="{{ sort_mota_sp }}">{{ column_status }}</a>
                     {% endif %}</td>
+                  <td class="text-left">{% if sort == 'price' %}
+                    <a href="{{ sort_price }}" class="{{ order|lower }}">{{ column_price }}</a>
+                    {% else %}
+                    <a href="{{ sort_price }}">{{ column_price }}</a>
+                    {% endif %}</td>
                   <td class="text-left">{% if sort == 'time' %}
                     <a href="{{ sort_time }}" class="{{ order|lower }}">{{ column_date_added }}</a>
                     {% else %}
@@ -64,6 +69,7 @@
                     {% endif %}</td>
                   <td class="text-left">{{ user.ten_sp }}</td>
                   <td class="text-left">{{ user.mota_sp }}</td>
+                  <td class="text-left">{{ user.price }}</td>
                   <td class="text-left">{{ user.time }}</td>
                   <td class="text-right"><a href="{{ user.edit }}" data-toggle="tooltip" title="{{ button_edit }}" class="btn btn-primary"><i class="fa fa-pencil"></i></a></td>
                 </tr>
