@@ -18,24 +18,12 @@ $_['column_action']         = 'Hành Động';
 $_['column_price']          = 'Giá Tiền';
 
 //Form
-//$_['tensanpham'] = 'Tên Sản Phẩm';
 $_['mota_sanpham']          = 'Mô Tả';
 $_['entry_tensanpham']      = 'Nhập Tên Sản Phẩm';
 $_['entry_mota_sanpham']    = 'Nhập Mô Tả Sản Phẩm';
-
 $_['error_tensanpham']      = 'Không được để trống tên sản phẩm. Tên sản phẩm phải trên 6 kí tự.';
 $_['error_mota']            = 'Không được để trống mô tả sản phẩm. Mô tả phải trên 15 kí tự.';
 $_['error_price']           = 'Lỗi giá tiền. Bạn không được để trống ô giá tiền hoặc giá trị bé hơn 0.';
-// Entry
-$_['entry_username']        = 'Username';
-$_['entry_user_group']      = 'User Group';
-$_['entry_password']        = 'Password';
-$_['entry_confirm']         = 'Confirm';
-$_['entry_firstname']       = 'First Name';
-$_['entry_lastname']        = 'Last Name';
-$_['entry_email']           = 'E-Mail';
-$_['entry_image']           = 'Image';
-$_['entry_status']          = 'Status';
 
 // Error
 $_['error_permission']      = 'Warning: You do not have permission to modify users!';

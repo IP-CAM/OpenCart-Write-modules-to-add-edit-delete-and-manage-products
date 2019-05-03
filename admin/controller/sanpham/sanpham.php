@@ -319,7 +319,7 @@ class ControllerSanPhamSanPham extends Controller {
 		} else if(!empty($user_info['ten_sp'])) {
 			$data['tensanpham'] = $user_info['ten_sp'];
 		} else {
-			@$data['tensanpham'] = $this->request->post['tensanpham'];
+			$data['tensanpham'] = @$this->request->post['tensanpham'];
 		}
 
 		if (isset($this->request->post['mota'])) {
@@ -327,7 +327,7 @@ class ControllerSanPhamSanPham extends Controller {
 		} else if(!empty($user_info['mota_sp'])) {
 			$data['mota'] = $user_info['mota_sp'];
 		} else {
-			@$data['mota'] = $this->request->post['mota'];
+			$data['mota'] = @$this->request->post['mota'];
 		}
 
 		if (isset($this->request->post['price'])) {
@@ -335,10 +335,8 @@ class ControllerSanPhamSanPham extends Controller {
 		} else if(isset($user_info['price'])) {
 			$data['price'] = $user_info['price'];
 		} else {
-			@$data['price'] = $this->request->post['price'];
+			$data['price'] = @$this->request->post['price'];
 		}
-
-
 
 		$data['header'] = $this->load->controller('common/header');
 		$data['column_left'] = $this->load->controller('common/column_left');

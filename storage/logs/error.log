@@ -59,3 +59,6 @@
 2019-05-02 17:30:26 - PHP Notice:  Undefined index: tensanpham in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 311
 2019-05-02 17:30:26 - PHP Notice:  Undefined index: mota in C:\xampp\htdocs\Opencart-Divine\admin\controller\sanpham\sanpham.php on line 319
 2019-05-03 2:54:28 - PHP Notice:  Undefined variable: user_info in C:\xampp\htdocs\OpenCart\admin\controller\sanpham\sanpham.php on line 335
+2019-05-03 4:25:12 - PHP Notice:  Undefined index: tensanpham in C:\xampp\htdocs\OpenCart\admin\controller\sanpham\sanpham.php on line 322
+2019-05-03 4:25:12 - PHP Notice:  Undefined index: mota in C:\xampp\htdocs\OpenCart\admin\controller\sanpham\sanpham.php on line 330
+2019-05-03 4:25:12 - PHP Notice:  Undefined index: price in C:\xampp\htdocs\OpenCart\admin\controller\sanpham\sanpham.php on line 338
