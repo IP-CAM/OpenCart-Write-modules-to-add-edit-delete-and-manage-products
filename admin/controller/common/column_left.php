@@ -15,6 +15,15 @@ class ControllerCommonColumnLeft extends Controller {
 			'children' => array()
 		);
 
+		//Product
+		$data['menus'][] = array(
+			'id'       => 'menu-product',
+			'icon'	   => 'fa-shopping-cart',
+			'name'	   => 'Quản Lí Sản Phẩm',
+			'href'     => $this->url->link('sanpham/sanpham', '', true),
+			'children' => array()
+		);
+
 		// Extension
 		$marketplace = array();
 		
